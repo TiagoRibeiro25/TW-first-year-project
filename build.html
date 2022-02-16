@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style_shop.css">
+</head>
+
+<body>
+    <header>
+        <nav id="top_content">
+            <div class="logo_img">
+                <a href="index.html">
+                    <img src="imagens/logo.png" width="100" height="84">
+                </a>
+            </div>
+
+            <h1 id="top_info">ONLINE PC SHOPPING</h1>
+
+            <div class="top_btns">
+                <a href="log_in.html"><img class="btn" src="imagens/user.png" width="100" height="84"></a>
+                <div class="dropdown">
+                    <a href="checkout.html"><img class="btn" src="imagens/carrinho.png" width="100" height="84"></a>
+                    <div id="dropdown-content">
+                    </div>
+                    <a href="info.html"><img class="btn" src="imagens/info.png" width="100" height="84"></a>
+                    <div id="dropdown-content">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="conteiner">
+        <aside>
+            <div>
+                <label id="search_label" for="search">&#x1F50E;&#xFE0E;</label>
+                <input type="search" id="search" placeholder="  search">
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" value="CPU" id="search_cpu" name="search_cpu">
+                <label for="search_cpu">CPU</label>
+            </div>
+            <div>
+                <input type="checkbox" value="GPU" id="search_gpu" name="search_gpu">
+                <label for="search_gpu">Graphics Card</label>
+            </div>
+            <div>
+                <input type="checkbox" value="ram" id="search_ram" name="search_ram">
+                <label for="search_ram">Ram</label>
+            </div>
+            <div>
+                <input type="checkbox" value="mother_board" id="search_mother_board" name="search_mother_board">
+                <label for="search_mother_board">Mother Board</label>
+            </div>
+            <div>
+                <input type="checkbox" value="power_supply" id="search_power_supply" name="search_power_supply">
+                <label for="search_power_supply">Power Supply</label>
+            </div>
+            <div>
+                <input type="checkbox" value="cooler" id="search_cooler" name="search_cooler">
+                <label for="search_cooler">Cooler</label>
+            </div>
+            <div>
+                <input type="checkbox" value="case" id="search_case" name="search_case">
+                <label for="search_case">Case</label>
+            </div>
+            <div>
+                <input type="checkbox" value="sound_board" id="search_sound_board" name="search_sound_board">
+                <label for="search_sound_board">Sound Board</label>
+            </div>
+            <div>
+                <input type="checkbox" value="wifi_card" id="search_wifi_card" name="search_wifi_card">
+                <label for="search_wifi_card">Wifi card</label>
+            </div>
+            <div>
+                <input type="checkbox" value="bluetooth_adapter" id="search_bluetooth_adapter" name="search_bluetooth_adapter">
+                <label for="search_bluetooth_adapter">Bluetooth adapter</label>
+            </div>
+            <br>
+            <div>
+                <label for="price_filter">Price (0~5000)</label>
+                <input type="range" value="price" id="price_filter" name="price_filter" min="0" max="100">
+            </div>
+        </aside>
+        <article id="New_Components">
+            <div class="new_item">
+                <a href="Products/i9_12900k.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/i9 12900k.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Intel core i9-12900k</div>
+                        <p>Price: 655,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/rtx_3060.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/rtx 3060.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Nvidea Geforce RTX 3060</div>
+                        <p>Price: 699,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/Z690UD.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/z690 UD.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Motherboard ATX Gigabyte Z690 UD</div>
+                        <p>Price: 214,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/ram_g_skill_16gb.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/g_skill 16gb.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">RAM G.SKILL 16GB DDR4-3200MHz</div>
+                        <p>Price: 66,60€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/hx750.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/corsair hx 750.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Power Supply Corsair Hx750</div>
+                        <p>Price: 172,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item sale">
+                <a href="Products/ryzen5_5600g.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/Ryzen5 5600G.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">AMD Ryzen 5 5600G</div>
+                        <p>Price: 239,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/i5_12400F.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/i5-12400f.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Intel Core i5-12400F</div>
+                        <p>Price: 187,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/rx_6600.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/RX6600.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">AMD Radeon Rx 6600</div>
+                        <p>Price: 439,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/ram_corsair_16gb.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/corsair_vengeance.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">RAM Corsair Vengeance 16GB DDr-3200Mhz</div>
+                        <p>Price: 74,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/gtx_1660_super.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/1660super.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Geforce GTX 1660 Super</div>
+                        <p>Price: 579,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/ml240l.html">
+                    <div class="img_product">
+                            <img src="imagens/produtos/ML240L.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Water Cooler CPU Cooler Master ML240L V2</div>
+                        <p>Price: 64,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/h150m.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/H510M.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Motherboard Micro-ATX MSI H510M Pro-E</div>
+                        <p>Price: 67,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/b550.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/B550.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Motherboard ATX Gigabyte B550 Aorus Elite V2</div>
+                        <p>Price: 139,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/nox_urano_vx.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/Urano VX 650w.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Power Supply Nox Urano VX 650W 80 PLUS</div>
+                        <p>Price: 44,90€</p>
+                    </div>
+                </a>
+            </div>
+            <div class="new_item">
+                <a href="Products/orico_sc2.html">
+                    <div class="img_product">
+                        <img src="imagens/produtos/orico.png">
+                    </div>
+                    <div class="product_description">
+                        <div class="price_product">Sound board Orico SC2 USB 2.0 Black</div>
+                        <p>Price: 5,90€</p>
+                    </div>
+                </a>
+            </div>
+        </article>
+    </div>
+    <footer>
+        <div id="footer">
+            <div class="social_media">
+                <div id="facebook">
+                    <a href="https://pt-pt.facebook.com/">
+                        <img src="imagens/facebook.png" width="40" height="40">
+                    </a>
+                </div>
+                <div id="twitter">
+                    <a href="https://twitter.com/?lang=pt">
+                        <img src="imagens/twitter.png" width="41" height="41">
+                    </a>
+                </div>
+                <div id="instagram">
+                    <a href="https://www.instagram.com/">
+                        <img src="imagens/instagram.png" width="40" height="40">
+                    </a>
+                </div>
+                <div id="youtube">
+                    <a href="https://www.youtube.com/">
+                        <img src="imagens/youtube.png" width="40" height="40">
+                    </a>
+                </div>
+            </div>
+            <div class="payment">
+                <img src="imagens/payment methods.png" width="175" height="45">
+            </div>
+            <div class="brand_txt">
+                &#169; 2022 Online PC Shopping, by Tiago Ribeiro, TSIW - 1st year.
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
