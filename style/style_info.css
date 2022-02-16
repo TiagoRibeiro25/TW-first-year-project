@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(47, 11, 255, 0.1);
+    background-image: url("../imagens/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+#information {
+    font-size: 50px;
+    color: rgb(252, 251, 251);
+    text-align: center;
+}
+
+article {
+    background-color: rgba(78, 118, 250, 0.877);
+    width: 75%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 25px 1px rgb(2, 55, 230);
+    background: rgba(177, 176, 255, 0.9);
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+article div{
+    padding: 10px;
+}
+
+article p {
+    font-size: 20px;
+}
+
+center {
+    font-size: 35px;
+}
+
+h1 {
+    margin: 10px;
+    margin-top:10px;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top:30px;
+    font-size: 40px;
+}

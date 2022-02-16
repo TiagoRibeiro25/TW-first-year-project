@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(92, 134, 252, 0.952);
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#fname, #lname {
+    width: auto;
+}
+
+
+#login {
+    margin-top:50px;
+    margin-bottom: 20px;
+    background-color: rgb(95, 111, 255);
+    border: 2px solid rgb(16, 255, 243);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login a{
+    width: 5%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(34, 0, 252);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input:focus {
+    border: 3px solid rgb(10, 7, 233);
+}
+
+input[type='submit']:hover {
+    border: 3px solid rgb(111, 243, 252);
+    background-color: rgba(155, 174, 252, 0.7);
+}
+
+input[type='submit']:active {
+    transform: scale(0.95);
+}

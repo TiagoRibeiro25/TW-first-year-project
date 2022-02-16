@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(47, 11, 255, 0.1);
+    background-image: url("../imagens/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+
+article {
+    background-color: rgba(78, 118, 250, 0.877);
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 25px 1px rgb(2, 55, 230);
+    background: rgba(177, 176, 255, 0.9);
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top:120px;
+    margin-bottom: 140px;
+}
+
+article div{
+    padding: 58px;
+}
+
+#log_in_register {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 55px;
+    margin-top: 45px;
+}
+
+#log_in_register .log_in_register_option {
+    position: relative;
+    flex: 0 1 190px;
+    margin: 40px;
+    transition: 1s;
+}
+
+
+#log_in_register a {
+    border-radius: 50px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(11, 5, 85);
+    border: 2px solid rgb(122, 199, 240);
+    padding: 45px;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 40%;
+    transform: translate(0%, -50%);
+    font-size: 27px;
+}
+
+#log_in_register a:hover {
+    background-color: rgb(72, 43, 235);
+}
+
+#log_in_register .log_in_register_option:hover {
+    transform:scale(1.20);
+}
