@@ -2,7 +2,7 @@ let i = 0
 
 create_button()
 function create_button() {
-    for (let i = 0; i < document.getElementById("New_Components").childElementCount; i++) {
+    for (let i = 0; i < document.getElementById("New_Components").childElementCount; i = i + 1) {
         let div_product = document.getElementById("New_Components").children[i];
         let btn = document.createElement("button");
         let img_btn = document.createElement("img");
@@ -11,6 +11,7 @@ function create_button() {
 
         btn.append(img_btn);
         btn.append("Add To Cart");
+        
         //when clicking, starts the function
         btn.addEventListener("click", function () {
 
