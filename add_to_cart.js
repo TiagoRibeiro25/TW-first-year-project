@@ -34,7 +34,6 @@ function create_button() {
 
             //Add to the list (cart)
             p_checkout.append(div_product.children[0].children[1].children[0].innerText + " " + div_product.children[0].children[1].children[1].innerText);
-            
             //Add the image of the product to the list
             img_checkout.src = div_product.children[0].children[0].children[0].src;
 
