@@ -1,5 +1,3 @@
-let i = 0
-
 create_button()
 function create_button() {
     for (let i = 0; i < document.getElementById("New_Components").childElementCount; i = i + 1) {
